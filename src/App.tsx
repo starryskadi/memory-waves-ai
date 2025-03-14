@@ -95,7 +95,7 @@ function App() {
     const timeoutId = setTimeout(() => {
       const botMessage: Message = {
         id: nextId++,
-        text: "What do you say? I forget, when I'm doing your request.",
+        text: "What do you say? I forget",
         sender: 'bot'
       }
       setMessages([...messages(), botMessage])
